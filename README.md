@@ -150,8 +150,10 @@ Para saber si el deploy finalizó con éxito, hay que localizar el mensaje `Your
 
 Inmediamente, comenzar a crear datos de las entidades por medio de postman.
 
-> La versión gratuita de Render solo otorga un tiempo limitado de vida del deploy
-> y después entra en suspensión, siendo imposible reactivarlo (a menos que contrates un plan).
+> [!NOTE]
+> La versión gratuita de Render otorga un tiempo **limitado** de vida del deploy
+> y después entra en suspensión, siendo imposible reactivarlo
+> (a menos que contrates un plan).
 
 - Copiamos la URL que se encuentra en la parte superior del dashboard.
 - La cual tiene dominio `.onrender`
@@ -175,4 +177,3 @@ spring.jpa.hibernate.ddl-auto=validate
 - Realizar commit y push
 - Esperar que termine el deploy.
 - **En el enlace principal de `.onrder` podemos acceder al fronted.**
-
